@@ -18,6 +18,7 @@ import { HttpModule } from '@angular/http';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 import { CourseForm } from 'app/template-driven-form/course-form';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,6 +27,7 @@ import { CourseForm } from 'app/template-driven-form/course-form';
     HomeComponent,
     PostsComponent,
     TemplateDrivenFormComponent,
+    
   ],
   imports: [
     AppRoutingModule,
